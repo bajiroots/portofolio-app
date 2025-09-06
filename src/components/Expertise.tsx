@@ -6,40 +6,36 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
+    "Laravel",
+    "PHP",
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "MySql",
+    "Postman",
+    "Bootstrap",
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
+    "Cpanel",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Bitbucket Pipelines",
+    "Cron Jobs",
 ];
 
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
-];
+// const labelsThird = [
+//     "OpenAI",
+//     "Groq",
+//     "LangChain",
+//     "Qdrant",
+//     "Hugging Face",
+//     "LlamaIndex",
+//     "Streamlit",
+// ];
 
 function Expertise() {
     return (
@@ -50,7 +46,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I have built a diverse array of web applications from scratch using modern technologies such as Laravel and React. I have strong proficiency in the SDLC process and expertise in both frontend and backend development within the Laravel ecosystem.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -71,7 +67,7 @@ function Expertise() {
                     </div>
                 </div>
 
-                <div className="skill">
+                {/* <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
@@ -81,7 +77,7 @@ function Expertise() {
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
