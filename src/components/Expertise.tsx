@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faLaravel, faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -44,7 +44,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
+                    <FontAwesomeIcon icon={faLaravel} size="3x"/>
                     <h3>Full Stack Web Development</h3>
                     <p>I have built a diverse array of web applications from scratch using modern technologies such as Laravel and React. I have strong proficiency in the SDLC process and expertise in both frontend and backend development within the Laravel ecosystem.</p>
                     <div className="flex-chips">

@@ -9,19 +9,21 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          {/* <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" /> */}
+          <img src={process.env.PUBLIC_URL + '/avatar.png'} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
-            <a href="https://github.com/bajiroots" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/dicky-armansyah-214377193/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/bajiroots" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/dicky-armansyah-214377193/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
           <h1>Dicky Armansyah</h1>
           <p>Fullstack Developer</p>
+          <i>I help founders turn ideas  into seamless digital experiences</i>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/bajiroots" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/dicky-armansyah-214377193/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://github.com/bajiroots" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+            <a href="https://www.linkedin.com/in/dicky-armansyah-214377193/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
         </div>
       </div>

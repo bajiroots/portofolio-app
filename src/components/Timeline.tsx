@@ -2,7 +2,7 @@ import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -12,7 +12,7 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
@@ -37,29 +37,29 @@ function Timeline() {
             <p>
               Frontend Development, Backend Development, User Experience, Team Leading
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2022 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Fullstack Web Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Greenusa</h4>
             <p>
               Full-stack Development, API Development, User Experience
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2021 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Community Manager</h3>
             <h4 className="vertical-timeline-element-subtitle">Starrynift</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Community Automation, Data-Driven Engagement, Governance Analytics
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
