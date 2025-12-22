@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/portofolio-app/static/css/main.20075cc2.css",
-    "main.js": "/portofolio-app/static/js/main.889dbeb7.js",
+    "main.css": "/portofolio-app/static/css/main.41111b02.css",
+    "main.js": "/portofolio-app/static/js/main.bee445eb.js",
     "static/js/453.b05d8aa5.chunk.js": "/portofolio-app/static/js/453.b05d8aa5.chunk.js",
     "static/media/etepian_showcase.png": "/portofolio-app/static/media/etepian_showcase.befe22b56bf86f72cbd3.png",
+    "static/media/ihw_showcase.png": "/portofolio-app/static/media/ihw_showcase.c754ee1799f75d9c1c55.png",
     "static/media/bg-light.png": "/portofolio-app/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/hki_showcase.png": "/portofolio-app/static/media/hki_showcase.48c945abd1c75e1b311e.png",
+    "static/media/skj_showcase.png": "/portofolio-app/static/media/skj_showcase.15b21f0a9870ff832e7a.png",
     "static/media/bg-dark.png": "/portofolio-app/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mudah_koding_showcase.png": "/portofolio-app/static/media/mudah_koding_showcase.4c61f8fddaa8bd7a3117.png",
+    "static/media/poltanesa_showcase.png": "/portofolio-app/static/media/poltanesa_showcase.8a838528ce2fd1324657.png",
     "index.html": "/portofolio-app/index.html",
-    "main.20075cc2.css.map": "/portofolio-app/static/css/main.20075cc2.css.map",
-    "main.889dbeb7.js.map": "/portofolio-app/static/js/main.889dbeb7.js.map",
+    "main.41111b02.css.map": "/portofolio-app/static/css/main.41111b02.css.map",
+    "main.bee445eb.js.map": "/portofolio-app/static/js/main.bee445eb.js.map",
     "453.b05d8aa5.chunk.js.map": "/portofolio-app/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20075cc2.css",
-    "static/js/main.889dbeb7.js"
+    "static/css/main.41111b02.css",
+    "static/js/main.bee445eb.js"
   ]
 }
